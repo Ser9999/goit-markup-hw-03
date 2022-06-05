@@ -64,7 +64,9 @@ ul {
   padding-right: 15px;
   /* outline: 1px solid red; */
 }
-.header{border-bottom: 1px solid #ECECEC;}
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -382,11 +384,12 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: var(--portfolio-title);}
+  color: var(--portfolio-title);
+}
 
-  .portfolio-title.visually{
-    visibility: hidden;
-  }
+.portfolio-title.visually {
+  visibility: hidden;
+}
 
 .portfolio-text {
   font-size: 16px;
